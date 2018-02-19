@@ -15,9 +15,9 @@ To run the project execute the following command in the root folder of the proje
 ## Calling services
 
 /send message operation:
-* http://localhost:8080/send
-** method: Post
-** sample sms payload:
+ * http://localhost:8080/send
+ ** method: Post
+ ** sample sms payload:
 {
 	"entityType": "sms",
     "from": {
