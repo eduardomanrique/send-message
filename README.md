@@ -16,8 +16,8 @@ To run the project execute the following command in the root folder of the proje
 
 /send message operation:
  * http://localhost:8080/send
- ** method: Post
- ** sample sms payload:
+ * method: Post
+ * sample sms payload:
 {
 	"entityType": "sms",
     "from": {
@@ -30,7 +30,7 @@ To run the project execute the following command in the root folder of the proje
     },
     "text": "xcccc"
 }
-** sample email payload:
+* sample email payload:
 {
     "entityType": "email",
     "from": "eduardo@gmail.com",
@@ -41,4 +41,4 @@ To run the project execute the following command in the root folder of the proje
 
 /list message operation:
 * http://localhost:8080/list
-** method: Get
+* method: Get
